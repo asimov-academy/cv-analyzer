@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "analisador-curriculos"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Sublate <samuel@asimov.academy>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.37.1"
+streamlit-aggrid = "^1.0.5"
+pandas = "^2.2.2"
+tinydb = "^4.8.0"
+pydantic = "^2.8.2"
+google-api-python-client = "^2.142.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+langchain-groq = "^0.1.9"
+python-dotenv = "^1.0.1"
+fitz = "^0.0.1.dev2"
+pymupdf = "^1.24.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
